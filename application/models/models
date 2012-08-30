@@ -1,0 +1,12 @@
+// Gerais
+* Total de Mensagens (mensagens)
+Total de Mensagens / Mes (mensagens)
+Total de Mensagens / Operadora (operadora, mensagens)
+Total de Mensagens / Palavras-chave (posição, palavra-chave, mensagens)
+
+//Canais
+Total de Mensagens Canais X Operadora (canal, total m., Tim m., Claro m., Vivo m., Oi m.)
+
+//Portabilidade
+Total de Mensagens Operadora X Dia (data, Total m., tim m., claro m., vivo m., oi m.)
+Total de Mensagens Operadora X Mês (data, Total m., tim m., claro m., vivo m., oi m.)
