@@ -1,11 +1,11 @@
 <?php
 
-class total_sms_mes {
+class Total_sms_mes {
     
     public $mes = null;
-    public $total_sms_mes = null;
+    public $total_mes = null;
 
-    public function total_sms_mes($data = false) {
+    public function Total_sms_mes($data = false) {
         if ($data != false) {
             return $this->populate($data);
         }

@@ -1,10 +1,19 @@
 <?php
 
-class Total_sms {
+class Total_pc_dia {
 
-    public $total_sms = null;
+    public $pc = null;
+    public $dias = array(
+                        "1" => null,
+                        "2" => null,
+                        "3" => null,
+                        "4" => null,
+                        "5" => null,
+                        "6" => null,
+                        "7" => null
+                        );
 
-    public function Total_sms($data = false) {
+    public function Total_pc_dia($data = false) {
         if ($data != false) {
             return $this->populate($data);
         }

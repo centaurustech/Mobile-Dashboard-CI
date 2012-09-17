@@ -1,0 +1,127 @@
+/*
+ *	Author: Julio Graffin =)
+ * 	Date: 21/08
+ * 	Style Definitions for Dashboard Tim
+ *  
+ */
+
+* {margin: 0px;padding: 0px;border: 0px;list-style: none;font-family: 'lucidagranderegular';}
+body {background: #f9fbfd;}
+
+@font-face {
+    font-family: 'lucidagranderegular';
+    src: url('../fonts/lucidagrande-webfont.eot');
+    src: url('../fonts/lucidagrande-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lucidagrande-webfont.woff') format('woff'),
+         url('../fonts/lucidagrande-webfont.ttf') format('truetype'),
+         url('../fonts/lucidagrande-webfont.svg#lucidagranderegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* wrap */
+.wrap {width: 980px;margin: auto;content: ".";}
+
+/* header */
+#header {width: 100%;height: 60px;float: left;background: url("../images/bg_header.gif") repeat-x scroll 0 0 transparent;border-bottom:1px solid #ffffff;}
+#header h1 {float: left;margin: 10px;}
+#header h1 img {width: 100px;height: 42px;float: left;}
+#header h2 {float: left;margin: 18px 290px;color: #1c2a47;font-size: 18px;}
+#header h3 {float: right;margin: 10px;}
+
+/* container */
+#container {width: 100%;float: left;border-top:1px solid #bad6dc;}
+
+/* content */
+#container #content {width: 980px;height:600px;margin: 0 auto;background: #ffffff;box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);border-radius: 0px 0px 10px 10px;overflow:hidden;*border-right:1px solid #dadada;*border-left:1px solid #dadada;*border-bottom:1px solid #dadada;*padding-bottom:60px;}
+#container #content .boxes {width: 184px;height: auto;float: left;margin: 0px;*margin-top: 20px;position: relative;}
+
+
+#container #content .boxes .total_keywords a.more:hover {text-decoration: none;}
+#container #content .boxes .list_operators a.more {color: #EEEEEE;font-size: 10px;font-weight: bold;height: 20px;left: 0;position: absolute;top: 157px;*top:143px;width: 138px;text-align: center;}
+#container #content .boxes .list_operators a.more:hover {text-decoration: none;}
+
+
+/* pizza_result */
+#container #content .boxes .pizza_result {float: left;height: 180px;width: 150px;background: url("../images/bg_pizza_statistic.gif") no-repeat scroll 0 30px transparent;}
+#container #content .boxes .pizza_result h3 {color: #9C0039;float: left;font-size: 11px;text-align: center;text-transform: uppercase;width: 150px;}
+#container #content .boxes .pizza_result p {color: #EEEEEE;float: left;font-size: 22px;font-weight: bold;letter-spacing: -2px;margin-top: 56px;*margin-top: 62px;text-align: center;width: 150px;}
+
+/* list_operators */
+#container #content .boxes .list_operators {float: left;height: auto;width: 150px;}
+#container #content .boxes .list_operators h3 {background: url("../images/bg_det_top_bottom_operators_01.gif") no-repeat scroll 0 bottom transparent;color: #9C0039;float: left;font-size: 10px;padding-bottom: 13px;*padding-bottom:19px;text-align: center;text-transform: uppercase;width: 138px;}
+#container #content .boxes .list_operators ul.operators {border: 0 none;float: left;height: auto;padding-bottom: 16px;padding-top: 5px;width: 138px;background: url("../images/bg_det_top_bottom_operators_02.gif") no-repeat scroll 0 bottom #425680;}
+
+#container #content .boxes .list_operators ul.operators li {width: 138px;float: left;background: #98a2b9;border-bottom: 1px solid #63708c;border-top: 1px solid #acb7cf;padding-bottom:1px;}
+#container #content .boxes .list_operators ul.operators li:hover {background:#b3bbcf;}
+#container #content .boxes .list_operators ul.operators li strong {float: left;font-size: 12px;color: #eee;margin-top: 8px;margin-left: 10px;}
+#container #content .boxes .list_operators ul.operators li span {float: right;font-size: 20px;color: #1d2c4b;margin-top: 0px;margin-right: 10px;letter-spacing: -2px;}
+
+/* total_keywords */
+#container #content #last {margin-right: 0px;width: 349px;background: url(../images/bg_det_top_bottom_keywords_03.gif) 0px 33px no-repeat;*background: url(../images/bg_det_top_bottom_keywords_03.gif) 0px 28px no-repeat;text-align: center;*margin-top:30px;}
+#container #content #last .total_keywords {float: left;height: auto;width: 150px;}
+#container #content #last .total_keywords h3 {color: #9C0039;float: left;font-size: 11px;line-height: 25px;padding-bottom: 16px;*padding-bottom:10px;text-align: center;text-transform: uppercase;width: 349px;*margin-top:-3px;}
+
+/* table keywords */
+#container #content #last .total_keywords table {background:#425680 url(../images/bg_det_top_bottom_keywords_04.gif) 0px bottom no-repeat;width:349px;padding-bottom:4px;}
+#container #content #last .total_keywords table th {color:#eee; font-size:12px;background:#425680;}
+#container #content #last .total_keywords table tr {background:#98A2B9; color:#eee; font-size:12px;}
+
+/*#container #content #last .total_keywords table tr:hover {background:#b3bbcf;}*/
+#container #content #last .total_keywords tr.last-child {background:transparent;}
+#container #content #last .total_keywords tr.last-child td {border-bottom:0px;}
+#container #content #last .total_keywords tr.last-child td a {color: #EEEEEE;font-size: 10px;font-weight: bold;height: auto;left: 0;position: relative;width: 347px;text-align: center;line-height:10px;}
+#container #content #last .total_keywords tr.last-child td a:hover {text-decoration: none;}
+#container #content #last .total_keywords table tr td {color: #1D2C4B;font-weight: bold;padding: 3px;border-bottom: 1px solid #ACB7CF;}
+
+/* table boxes_portability */
+#container #content .boxes_portability {float: left;height: auto;width: 914px;}
+#container #content .boxes_portability .the_tables {float: left;width: 450px;}
+#container #content .boxes_portability .the_tables h3 {color: #9C0039;float: left;font-size: 11px;padding-bottom: 13px;text-align: center;text-transform: uppercase;width: 440px;background: url(../images/bg_det_top_bottom_portability_05.gif) 0px 19px no-repeat;}
+#container #content .boxes_portability .the_tables table {background:#425680 url(../images/bg_det_top_bottom_portability_06.gif) 0px bottom no-repeat;width:440px;padding-bottom:6px;text-align: center;}
+#container #content .boxes_portability .the_tables table th {color:#eee; font-size:12px;background:#425680;}
+#container #content .boxes_portability .the_tables table tr {background:#b3bbcd; color:#eee; font-size:12px;}
+#container #content .boxes_portability .the_tables table tr td {padding: 6px;color:#425680;font-weight:bold;border-right:1px solid #dadada;}
+
+#container #content #tabs-2 .the_tables {float: left;width: 889px;}
+#container #content #tabs-2 .the_tables h3 {color: #9C0039;float: left;font-size: 11px;padding-bottom: 10px;text-align: center;text-transform: uppercase;width: 889px;background: url(../images/bg_det_top_bottom_operatorskeywords_03.png) 0px 19px no-repeat;}
+#container #content #tabs-2 .the_tables table {background:#425680 url(../images/bg_det_top_bottom_operatorskeywords_06.png) 0px bottom no-repeat;width: 889px;padding-bottom:6px;text-align: center;}
+#container #content #tabs-2 .the_tables table th {color:#eee; font-size:12px;background:#425680;}
+#container #content #tabs-2 .the_tables table tr {background:#b3bbcd; color:#eee; font-size:12px;}
+#container #content #tabs-2 .the_tables table tr td {padding: 6px;color:#425680;font-weight:bold;border-right:1px solid #dadada;}
+
+
+/* titles */
+#container #content h4#general_statistics {width: 868px;float: left;margin: 10px;color: #425680;font-size: 14px;text-transform: uppercase;letter-spacing: -1px;padding: 10px 45px;background: url(../images/bg_statistics.gif) 0px 0px no-repeat;}
+
+#entry_account {width: 978px;height: 41px;float: left;background: url(../images/bg_account.gif) 0px 0px repeat-x;margin: 1px;}
+#entry_account h2 {width: 350px;height: 26px;float: left;font-size: 12px;font-weight: normal;padding-left: 25px;padding-top: 13px;color: #1c2a47;background: url(../images/bg_user.gif) 0px 0px no-repeat;}
+#entry_account a#btn_logout {color: #1C2A47;float: right;font-size: 11px;font-weight: bold;height: 26px;margin-right: 10px;padding-right: 16px;padding-top: 13px;text-align: right;width: 50px;background: url("../images/bg_logout.png") no-repeat scroll right 15px transparent;*background: url("../images/bg_logout.png") no-repeat scroll right 13px transparent;}
+#entry_account a#btn_logout:hover {text-decoration: none;}
+#tabs {margin-top: 20px;float: left;width: 950px;height: auto;margin: 50px 14px;background: transparent;border-radius: 0px;padding-bottom: 10px;padding-top:24px;}
+#tabs li {border:0px;}
+#tabs a#total, #tabs a#media, #tabs a#portable {background: url("../images/bg_icons_tabs.gif") no-repeat scroll 0 0 transparent;border-radius: 0 0 0 0;border-right: 1px solid #D9DDE6;color: #6175A2;float: left;font-weight: normal;height: 16px;margin-top: 20px;padding-bottom: 17px;padding-left: 40px;padding-top: 10px;text-transform: uppercase;width: 170px;}
+#tabs a#media {background-position: 0 -77px;width: 64px;}
+#tabs a#portable {background-position: 2px -157px;width: 125px;}
+#tabs ul {height: 26px;border-radius: 0px;border-bottom: 1px solid #D9DDE6;}
+
+/* footer */
+#footer {width: 100%;height: 40px;float: left;}
+#footer .wrap p {width: 100%;float: left;}
+#footer .wrap p strong {color: #666;font-size: 10px;float: left;margin: 10px;font-weight:normal;}
+#footer .wrap p a {color: #004990;font-size: 10px;text-decoration: underline;float: right;margin: 10px;}
+#footer .wrap p a:hover {text-decoration: none;}
+
+/* form_login */
+#form_login {background: none repeat scroll 0 0 #FFFFFF;border-radius: 10px 10px 10px 10px;box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);height: auto;margin: 200px auto auto;padding-bottom: 14px;*padding-bottom: 0px;padding-top: 10px;position: relative;width: 400px;*border:1px solid #dadada;}
+#form_login h1 {height: 58px;left: 50%;margin-left: -60px;margin-top: -169px;*margin-top: -190px;position: absolute;top: 50%;width: 139px;}
+#form_login h1 img {height: 50px;width: 120px;}
+#form_login .fields {float: left;width: 400px;}
+#form_login .fields label {color: #1D2C4B;display: block;float: left;font-size: 12px;font-weight: bold;margin-left: 20px;margin-top: 7px;width: auto;}
+#form_login .fields input[type="text"], #form_login .fields input[type="password"] {border-color: #DADADA #EEEEEE #EEEEEE;border-style: solid;border-width: 1px;color: #888888;font-size: 12px;margin: 6px 20px;padding: 10px;width: 339px;}
+#form_login .fields input[type="submit"] {background: none repeat scroll 0 0 #1D2C4B;border: 1px solid #4F6084;border-radius: 2px 2px 2px 2px;color: #EEEEEE;font-size: 12px;font-weight: bold;margin-left: 20px;margin-top: 10px;padding: 6px;width: 100px;}
+#form_login .fields input[type="submit"]:hover {background: none repeat scroll 0 0 #2D3F62;color: #FFFFFF;}
+#form_login p {bottom: -35px;left: 0;position: absolute;width: 100%;}
+#form_login p span {float: left;font-size: 10px;margin: 10px;}
+#form_login p a {color: #004990;float: right;font-size: 10px;margin: 10px;}
+#form_login p a:hover {text-decoration: none;}

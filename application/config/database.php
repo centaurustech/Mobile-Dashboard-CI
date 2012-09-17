@@ -48,7 +48,7 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
+$db['default']['hostname'] = 'r2d2.refinariailtda.info';
 $db['default']['username'] = 'sys_rcplay';
 $db['default']['password'] = 'sys_rcplay';
 $db['default']['database'] = 'radio_controle';
